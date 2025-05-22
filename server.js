@@ -65,4 +65,5 @@ app.post('/upload', upload.single('image'), async (req, res) => {
 app.listen(PORT, () => {
   console.log(`✅ Backend server is running at http://localhost:${PORT}`);
   // console.log('Prediction Key:', process.env.PREDICTION_KEY);
+  // console.log('Endpoint url:', process.env.ENDPOINT_URL);
 });
